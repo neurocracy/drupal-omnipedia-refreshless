@@ -32,7 +32,7 @@
   "extra": {
     "patches": {
       "drupal/core": {
-        "RefreshLess core patch": "drupal/modules/custom/omnipedia_refreshless/patches/drupal/core/refreshless_core_9.3.x.patch"
+        "RefreshLess core patch": "https://raw.githubusercontent.com/neurocracy/drupal-omnipedia-refreshless/1.x/patches/drupal/core/refreshless_core_9.3.x.patch"
       }
     }
   }
