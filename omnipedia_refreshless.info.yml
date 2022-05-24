@@ -1,0 +1,8 @@
+name: Omnipedia - RefreshLess
+type: module
+description: Provides Omnipedia integration for the RefreshLess module.
+package: Omnipedia
+core_version_requirement: ^9
+
+dependencies:
+  - refreshless:refreshless

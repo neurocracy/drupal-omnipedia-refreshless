@@ -1,0 +1,11 @@
+services:
+
+  omnipedia_refreshless.page_state:
+    class: Drupal\omnipedia_refreshless\Service\RefreshLessPageState
+    decorates: refreshless.page_state
+    decoration_priority: 9
+    public: false
+    arguments:
+      - '@cache_contexts_manager'
+      - '@csrf_token'
+      - '@omnipedia_refreshless.page_state.inner'

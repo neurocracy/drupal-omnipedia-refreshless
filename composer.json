@@ -1,0 +1,39 @@
+{
+  "name": "drupal/omnipedia_refreshless",
+  "description": "Omnipedia - RefreshLess",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Ambient.Impact",
+      "homepage": "https://ambientimpact.com/",
+      "role": "Developer"
+    }
+  ],
+  "repositories": {
+    "drupal/refreshless": {
+      "type": "package",
+      "package": {
+        "name": "drupal/refreshless",
+        "type": "drupal-module",
+        "version": "dev-3279394-composer.json-drupal-9-support",
+        "source": {
+          "url": "https://git.drupalcode.org/issue/refreshless-3279394.git",
+          "type": "git",
+          "reference": "3279394-composer.json-drupal-9-support"
+        }
+      }
+    }
+  },
+  "require": {
+    "php": "^8",
+    "drupal/refreshless": "dev-3279394-composer.json-drupal-9-support"
+  },
+  "extra": {
+    "patches": {
+      "drupal/core": {
+        "RefreshLess core patch": "drupal/modules/custom/omnipedia_refreshless/patches/drupal/core/refreshless_core_9.3.x.patch"
+      }
+    }
+  }
+}
