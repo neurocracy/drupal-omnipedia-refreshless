@@ -10,24 +10,9 @@
       "role": "Developer"
     }
   ],
-  "repositories": {
-    "drupal/refreshless": {
-      "type": "package",
-      "package": {
-        "name": "drupal/refreshless",
-        "type": "drupal-module",
-        "version": "dev-3279394-composer.json-drupal-9-support",
-        "source": {
-          "url": "https://git.drupalcode.org/issue/refreshless-3279394.git",
-          "type": "git",
-          "reference": "3279394-composer.json-drupal-9-support"
-        }
-      }
-    }
-  },
   "require": {
     "php": "^8",
-    "drupal/refreshless": "dev-3279394-composer.json-drupal-9-support"
+    "drupal/refreshless": "1.x-dev@dev"
   },
   "extra": {
     "patches": {
