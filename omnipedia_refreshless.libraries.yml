@@ -1,0 +1,5 @@
+refreshless:
+  js:
+    javascript/refreshless.js: { attributes: { defer: true }}
+  dependencies:
+    - core/jquery

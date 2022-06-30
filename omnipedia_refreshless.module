@@ -57,3 +57,22 @@ function omnipedia_refreshless_preprocess_region(array &$variables): void {
   }
 
 }
+
+/**
+ * Implements \hook_library_info_alter().
+ *
+ * This adds our 'omnipedia_refreshless/refreshless' as a dependency to the
+ * 'refreshless/refreshless' library.
+ */
+function omnipedia_refreshless_library_info_alter(
+  array &$libraries, string $extension
+): void {
+
+  if ($extension !== 'refreshless' || !isset($libraries['refreshless'])) {
+    return;
+  }
+
+  $libraries['refreshless']['dependencies'][] =
+    'omnipedia_refreshless/refreshless';
+
+}
