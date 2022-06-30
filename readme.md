@@ -26,7 +26,9 @@ part of this codebase is useful or will inspire someone out there.
 
 ----
 
-Provides an updated Drupal core patch and works around several issues:
+Provides [an updated Drupal core
+patch](https://www.drupal.org/project/refreshless/issues/3292843) and works
+around several issues:
 
 * [Add hook/event to alter cache contexts that RefreshLess considers sensitive to changes](https://www.drupal.org/project/refreshless/issues/3279949)
 
