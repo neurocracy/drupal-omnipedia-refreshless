@@ -39,3 +39,9 @@ around several issues:
 ----
 
 Use at your own risk; more info will be provided later.
+
+----
+
+# Demo
+
+[Rough demo video on YouTube](https://www.youtube.com/watch?v=UhcWpwI8X4Q) - doesn't provide any UI to indicate loading yet so this is just a proof of concept.
