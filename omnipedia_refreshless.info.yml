@@ -2,8 +2,8 @@ name: Omnipedia - RefreshLess
 type: module
 description: Provides Omnipedia integration for the RefreshLess module.
 package: Omnipedia
-core_version_requirement: ^9
-php: 8
+core_version_requirement: ^10
+php: 8.1
 
 dependencies:
   - refreshless:refreshless

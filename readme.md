@@ -31,9 +31,9 @@ around several issues:
 
 # Requirements
 
-* [Drupal 9](https://www.drupal.org/download) ([Drupal 8 is end-of-life](https://www.drupal.org/psa-2021-11-30))
+* [Drupal 10](https://www.drupal.org/download)
 
-* PHP 8
+* PHP 8.1
 
 * [Composer](https://getcomposer.org/)
 
@@ -67,5 +67,19 @@ In your root `composer.json`, add the following to the `"repositories"` section:
 ### Installing
 
 Once you've completed all of the above, run `composer require
-"drupal/omnipedia_refreshless:1.x-dev@dev"` in the root of your project to have
+"drupal/omnipedia_refreshless:2.x-dev@dev"` in the root of your project to have
 Composer install this and its required dependencies for you.
+
+----
+
+# Major breaking changes
+
+The following major version bumps indicate breaking changes:
+
+* 2.x:
+
+  * Requires Drupal 10.
+
+  * Requires PHP 8.1.
+
+  * Requires RefreshLess 2.x.
