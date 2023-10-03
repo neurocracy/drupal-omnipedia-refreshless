@@ -7,6 +7,14 @@ module, which provides experimental support for the
 
 ----
 
+# Demo
+
+[Rough demo video on YouTube](https://www.youtube.com/watch?v=UhcWpwI8X4Q) -
+doesn't provide any UI to indicate loading yet so this is just a proof of
+concept.
+
+----
+
 # Requirements
 
 * [Drupal 9](https://www.drupal.org/download) ([Drupal 8 is end-of-life](https://www.drupal.org/psa-2021-11-30))
@@ -26,13 +34,3 @@ around several issues:
 * [Consider attaching RefreshLess even when no session exists/user is anonymous](https://www.drupal.org/project/refreshless/issues/3279955)
 
 * [Add attribute to empty regions for CSS](https://www.drupal.org/project/refreshless/issues/3293592)
-
-----
-
-Use at your own risk; more info will be provided later.
-
-----
-
-# Demo
-
-[Rough demo video on YouTube](https://www.youtube.com/watch?v=UhcWpwI8X4Q) - doesn't provide any UI to indicate loading yet so this is just a proof of concept.
