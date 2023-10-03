@@ -3,6 +3,7 @@ type: module
 description: Provides Omnipedia integration for the RefreshLess module.
 package: Omnipedia
 core_version_requirement: ^9
+php: 8
 
 dependencies:
   - refreshless:refreshless
