@@ -25,8 +25,6 @@ around several issues:
 
 * [Consider attaching RefreshLess even when no session exists/user is anonymous](https://www.drupal.org/project/refreshless/issues/3279955)
 
-* [Add attribute to empty regions for CSS](https://www.drupal.org/project/refreshless/issues/3293592)
-
 ----
 
 # Requirements
