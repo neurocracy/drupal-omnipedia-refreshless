@@ -18,7 +18,7 @@
   "extra": {
     "patches": {
       "drupal/core": {
-        "RefreshLess core patch": "https://raw.githubusercontent.com/neurocracy/drupal-omnipedia-refreshless/1.x/patches/drupal/core/refreshless_core_9.3.x.patch"
+        "RefreshLess core patch: https://git.drupalcode.org/project/refreshless/-/blob/13fca4ac1512e7c7b3a1fcb573fdd77bc4b60256/core.patch": "https://git.drupalcode.org/project/refreshless/-/raw/13fca4ac1512e7c7b3a1fcb573fdd77bc4b60256/core.patch"
       }
     }
   }

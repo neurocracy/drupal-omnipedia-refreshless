@@ -17,7 +17,7 @@ concept.
 
 # Description
 
-Provides [an updated Drupal core
+Applies the [RefreshLess Drupal core
 patch](https://www.drupal.org/project/refreshless/issues/3292843) and works
 around several issues:
 
