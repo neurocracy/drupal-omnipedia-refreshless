@@ -29,7 +29,7 @@ around several issues:
 
 # Requirements
 
-* [Drupal 10](https://www.drupal.org/download)
+* [Drupal 10.1](https://www.drupal.org/download)
 
 * PHP 8.1
 
@@ -76,7 +76,7 @@ The following major version bumps indicate breaking changes:
 
 * 2.x:
 
-  * Requires Drupal 10.
+  * Requires Drupal 10.1.
 
   * Requires PHP 8.1.
 
