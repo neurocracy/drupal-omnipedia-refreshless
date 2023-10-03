@@ -15,6 +15,20 @@ concept.
 
 ----
 
+# Description
+
+Provides [an updated Drupal core
+patch](https://www.drupal.org/project/refreshless/issues/3292843) and works
+around several issues:
+
+* [Add hook/event to alter cache contexts that RefreshLess considers sensitive to changes](https://www.drupal.org/project/refreshless/issues/3279949)
+
+* [Consider attaching RefreshLess even when no session exists/user is anonymous](https://www.drupal.org/project/refreshless/issues/3279955)
+
+* [Add attribute to empty regions for CSS](https://www.drupal.org/project/refreshless/issues/3293592)
+
+----
+
 # Requirements
 
 * [Drupal 9](https://www.drupal.org/download) ([Drupal 8 is end-of-life](https://www.drupal.org/psa-2021-11-30))
@@ -55,15 +69,3 @@ In your root `composer.json`, add the following to the `"repositories"` section:
 Once you've completed all of the above, run `composer require
 "drupal/omnipedia_refreshless:1.x-dev@dev"` in the root of your project to have
 Composer install this and its required dependencies for you.
-
-----
-
-Provides [an updated Drupal core
-patch](https://www.drupal.org/project/refreshless/issues/3292843) and works
-around several issues:
-
-* [Add hook/event to alter cache contexts that RefreshLess considers sensitive to changes](https://www.drupal.org/project/refreshless/issues/3279949)
-
-* [Consider attaching RefreshLess even when no session exists/user is anonymous](https://www.drupal.org/project/refreshless/issues/3279955)
-
-* [Add attribute to empty regions for CSS](https://www.drupal.org/project/refreshless/issues/3293592)
