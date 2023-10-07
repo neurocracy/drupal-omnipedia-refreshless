@@ -19,13 +19,6 @@ use Drupal\refreshless\RefreshlessPageState as RefreshLessPageStateBase;
 class RefreshLessPageState extends RefreshLessPageStateBase {
 
   /**
-   * The RefreshLess page state service that we decorate.
-   *
-   * @var \Drupal\refreshless\RefreshlessPageState
-   */
-  protected RefreshLessPageStateBase $refreshlessPageState;
-
-  /**
    * Omnipedia cache contexts to be considered relevant to RefreshLess.
    *
    * @var string[]
@@ -52,12 +45,10 @@ class RefreshLessPageState extends RefreshLessPageStateBase {
   public function __construct(
     CacheContextsManager      $cacheContextsManager,
     CsrfTokenGenerator        $csrfTokenGenerator,
-    RefreshLessPageStateBase  $refreshlessPageState
+    protected readonly RefreshLessPageStateBase $refreshlessPageState,
   ) {
 
     parent::__construct($cacheContextsManager, $csrfTokenGenerator);
-
-    $this->refreshlessPageState = $refreshlessPageState;
 
   }
 
