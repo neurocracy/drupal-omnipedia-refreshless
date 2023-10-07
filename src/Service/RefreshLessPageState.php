@@ -73,9 +73,7 @@ class RefreshLessPageState extends RefreshLessPageStateBase {
    * @return boolean
    *   Whether the given cache context token is sensitive for RefreshLess.
    */
-  protected function isSensitiveContext($contextToken) {
-
-    assert('is_string($contextToken)');
+  protected function isSensitiveContext(string $contextToken): bool {
 
     return
       \in_array($contextToken, $this->omnipediaCacheContexts) ||
