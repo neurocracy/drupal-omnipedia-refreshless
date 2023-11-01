@@ -1,0 +1,11 @@
+name: Omnipedia - RefreshLess - Ajax
+type: module
+description: Provides Omnipedia integration for the RefreshLess module when using Drupal's Ajax framework as its implementation.
+package: Omnipedia
+core_version_requirement: ^10.1
+php: 8.1
+
+dependencies:
+  - hux:hux
+  - omnipedia_refreshless:omnipedia_refreshless
+  - refreshless:refreshless_ajax
