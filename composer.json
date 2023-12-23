@@ -14,7 +14,7 @@
     "php": "^8.1",
     "drupal/core": "^10.1",
     "drupal/hux": "^1.2",
-    "drupal/refreshless": "2.x-dev@dev"
+    "drupal/refreshless": "^2.0@dev"
   },
   "extra": {
     "patches": {
