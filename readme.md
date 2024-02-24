@@ -1,3 +1,13 @@
+# Archived
+
+This module is no longer developed or maintained. All development has switched
+to the RefreshLess module itself; if you want to help out, please see
+[Hotwire Turbo minimum viable implementation
+[#3393105]](https://www.drupal.org/project/refreshless/issues/3393105). The rest
+of this readme is left as-is but no longer relevant.
+
+----
+
 This contains the source files for the "*Omnipedia - RefreshLess*" Drupal
 module, which provides experimental support for the
 [RefreshLess](https://www.drupal.org/project/refreshless) contributed module for
